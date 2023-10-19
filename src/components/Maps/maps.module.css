@@ -1,0 +1,119 @@
+
+
+.h1 {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #281414;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+}
+
+.search {
+  position: absolute;
+  top: 9rem;
+  left: 48%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 450px;
+  padding: 5px;
+  z-index: 2;
+  border-radius: 40px / 50px;
+  border-color: rgb(160, 153, 153);
+}
+
+.search input {
+  padding: .7rem;
+  font-size: 1.2rem;
+  text-align: left;
+  width: 100%;
+  border-color: rgb(160, 153, 153);
+  border-radius: 27px / 50px;
+  position: 'absolute';
+}
+
+.locate {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  z-index: -1;
+}
+.locate img {
+  width: 30px;
+  cursor: pointer;
+} 
+
+
+.topT{
+  position: relative;  
+  width:800px;
+  background-color: white;
+  height: 180px;
+}
+
+.wantSearchText{
+  position: relative;
+  text-align: center; 
+  top: 40px;
+  color: dimgray;
+  font-size: 25px;
+  width: 100%;
+}
+
+.addressText{
+  position: relative;
+  text-align: center; 
+  top:30px;
+  color: dimgray;
+  font-size: 15px;
+}
+
+.slider{
+  position: absolute;
+  top: 670px;
+  /* width: 80%; */
+  z-index: 10;
+  left: 120px;
+}
+.bottomL{
+  position:absolute;                  
+  top: 412px;                       
+  align-self: center;
+  background-color: white;
+  width: 800px;
+  height: 172px;
+
+}
+.distance{
+  position: absolute;
+  top: -15px;
+  left: 140px;
+  font-size: 16px;
+}
+
+.continue {
+  position: absolute;
+  top: 50px;
+  left: 380px;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 60%;
+  background-color: #2B64D2; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 40px / 50px;
+ }
+ .cross{
+   position: absolute;
+   z-index: 1;
+   margin-top: 20px;
+   cursor: pointer;
+ }

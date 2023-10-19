@@ -1,0 +1,236 @@
+:root {
+  --maincolor: #2b64d2;
+  --secondarycolor: #999999;
+  --textcolor: #555555;
+  --chatcolor: #eeeeee;
+  --textfont: "Red Hat Display";
+}
+
+.header {
+  position: absolute;
+  left: 0%;
+  top: -15%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--textcolor);
+}
+
+.circle {
+  position: absolute;
+  top: 30%;
+  border-radius: 50%;
+}
+
+.jobsdone {
+  position: absolute;
+  left: 13%;
+  top: 26%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--textcolor);
+}
+
+.rating {
+  position: absolute;
+  left: 20%;
+  top: 26%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--textcolor);
+}
+
+.jobsdone2 {
+  position: absolute;
+  left: 10%;
+  top: 44%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--textcolor);
+}
+
+.rating2 {
+  position: absolute;
+  left: 21%;
+  top: 43%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  color: var(--textcolor);
+}
+
+.editbutton {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 350px;
+  height: 40px;
+
+  border: 1px solid var(--secondarycolor);
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: white;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.liability {
+  position: absolute;
+  left: 53.47%;
+  top: 24.85%;
+  bottom: 72.8%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--textcolor);
+}
+
+.workercompensation {
+  position: absolute;
+  left: 53.47%;
+  top: 27.98%;
+  bottom: 69.68%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--textcolor);
+}
+
+.profilebox {
+  left: 7%;
+  margin-top: 7%;
+  width: 86%;
+  position: relative;
+  height: 250px;
+}
+.hr1 {
+  position: relative;
+  width: 86%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border: 1px solid #cccccc;
+}
+.hr2 {
+  position: relative;
+  width: 86%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border: 1px solid #cccccc;
+}
+.SecondBox {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: relative;
+}
+
+.ThirdBox {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0px; */
+  position: relative;
+  left: 7%;
+  width: 86%;
+  /* overflow-x: hidden; */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  /* z-index: 1; */
+}
+.FourthBox {
+  padding: 0px;
+  position: relative;
+  /* top: 640px; */
+  /* margin-top: -20px; */
+  /* z-index: 1; */
+}
+
+.skillsbox {
+  position: relative;
+  top: 0%;
+  left: 7%;
+  right: 70%;
+}
+
+.skills {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* height:32px; */
+  /* margin-bottom: 20px; */
+  color: var(--textcolor);
+}
+
+.planguages {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--textcolor);
+}
+
+.languages {
+  margin-top: -1%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--textcolor);
+}
+
+.languagebox {
+  position: absolute;
+  top: 0%;
+  left: 53.47%;
+  right: 0%;
+}
+
+.Vector {
+  color: var(--maincolor);
+  margin-bottom: -3px;
+  margin-right: 2px;
+}
+.cardcontent {
+  max-height: 200px;
+  padding: 0px 16px 24px 16px;
+  margin-top: -30px;
+}
+.cardcontent:hover {
+  overflow: auto;
+}
+
+.gridContainer {
+  position: relative;
+  margin-top: 20px;
+  top: 20px;
+  height: auto;
+  margin: 0;
+  /* display: flex; */
+  /* flex-direction: row;   */
+  /* justify-content: space-between; */
+}
+.player{
+  margin-right: auto;
+  margin-left:auto;
+}

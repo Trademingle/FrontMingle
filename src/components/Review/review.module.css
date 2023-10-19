@@ -1,0 +1,146 @@
+.mainbox{
+    position: relative;
+    width:auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.biggestbox{
+    position: relative;
+    width:auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.cross{
+    position: relative;
+    float: right;
+    cursor: pointer;  
+    top:20px;
+    right:20px;
+    z-index: 1;
+}
+
+.h1{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #555555;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    margin-top: 50px;
+}
+.ratingbox{
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ratingbox2,
+.ratingbox1{
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #555555;  
+    margin-top:0px; 
+}
+.description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555; 
+    margin-top: -10px;
+}
+
+.stars{
+    margin-top: -10px;
+    margin-left: -15px;
+}
+.continue{
+   height: 55.16px;
+   width: 350px;
+   text-align: center;
+}
+.continuetext{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.stepperbox{
+    position: relative;
+    top:0px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stepper{
+    width: 350px;
+    margin-left: -30px;
+}
+.reviewcontent{
+    position: relative;
+    width:auto;
+    height:auto;
+}
+
+.textbox{
+    position: relative;
+    width: 95%;
+    min-height: 200px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    overflow-y: auto;
+}
+.inputbox{
+    position: relative;
+    width: 95%;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 18px;
+    color: var(--textcolor);
+    padding: 0 8px 0 8px;
+}
+
+@media only screen and (max-width: 900px) {
+    /* .h1{
+        text-align: unset;
+        left:30%;
+    }
+    .stepperbox{
+        align-self: unset;
+        left:20%;
+    } */
+
+}

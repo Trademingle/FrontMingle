@@ -1,0 +1,64 @@
+.toolbar {
+  display: flex;
+  font-weight: 500;
+  border: 1px solid ;
+  position: sticky;
+}
+
+@supports (backdrop-filter: blur(20px)) {
+  .toolbar {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+  }
+}
+
+.toolbar_title {
+  position: absolute;
+  color: #555555;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 30px;
+  margin-top: 4px;
+}
+
+.left_items, .right_items {
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  border-bottom: .7px solid rgb(182, 179, 179);
+  /* box-shadow: 5px 10px #888888; */
+  margin-left: -60px;
+}
+
+.right_items {
+  position: relative;
+  flex-direction: row-reverse;
+  margin-top:-4px;
+  /* margin-right: 25px; */
+}
+
+.left_items .toolbar_button {
+  margin-right: 20px;
+  width: 100%;
+}
+
+.right_items .toolbar_button {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.left_items .toolbar_button:last-child,
+.right_items .toolbar_button:last-child {
+  margin: 0;
+}
+
+.conversation_photo {
+  object-fit: cover;
+  margin-left: 20px;
+  color: grey;
+  margin-top: 4px;
+}

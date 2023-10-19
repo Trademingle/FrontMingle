@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e7b3da5.chunk.css",
+    "main.js": "/static/js/main.2eea6528.chunk.js",
+    "main.js.map": "/static/js/main.2eea6528.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.504bb5d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.504bb5d1.js.map",
+    "static/js/2.ad02ae0f.chunk.js": "/static/js/2.ad02ae0f.chunk.js",
+    "static/js/2.ad02ae0f.chunk.js.map": "/static/js/2.ad02ae0f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0e7b3da5.chunk.css.map": "/static/css/main.0e7b3da5.chunk.css.map",
+    "static/js/2.ad02ae0f.chunk.js.LICENSE.txt": "/static/js/2.ad02ae0f.chunk.js.LICENSE.txt",
+    "static/media/apple.8994a464.svg": "/static/media/apple.8994a464.svg",
+    "static/media/landing.module.css": "/static/media/builder.4d4ee7d8.png",
+    "static/media/construction.6f8af87c.png": "/static/media/construction.6f8af87c.png",
+    "static/media/contractor.c983212d.png": "/static/media/contractor.c983212d.png",
+    "static/media/google-icon.a45b46e9.svg": "/static/media/google-icon.a45b46e9.svg",
+    "static/media/homebuilder.75939eb2.png": "/static/media/homebuilder.75939eb2.png",
+    "static/media/homeowner.470a4f79.png": "/static/media/homeowner.470a4f79.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.504bb5d1.js",
+    "static/js/2.ad02ae0f.chunk.js",
+    "static/css/main.0e7b3da5.chunk.css",
+    "static/js/main.2eea6528.chunk.js"
+  ]
+}

@@ -1,0 +1,18 @@
+.message_list_container {
+  padding: 10px;
+  padding-bottom: 160px;
+
+}
+.message_list{
+  position: relative;
+  margin-top: 5px;
+  width:100%;
+
+}
+
+.toolbar{
+  position: fixed;
+  height: 45px;
+  border-bottom: 1px solid #CCCCCC;
+  right:17px;
+}

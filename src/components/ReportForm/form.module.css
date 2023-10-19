@@ -1,0 +1,52 @@
+.contactform {
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 20px 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
+.contactformgroup {
+  margin-bottom: 10px;
+}
+.formInput,
+.textInput{
+  width:99%;
+  margin-left: auto;
+  margin-right: auto;
+  height:40px;
+}
+.textInput{
+  height:100px;
+}
+.submitButton{
+  width:100%;
+  background:var(--maincolor);
+  color: white;
+  font-size: 15px;
+  height:40px;
+  cursor: pointer;
+}
+.cancelButton{
+  width:100%;
+  background:var(--chatcolor);
+  color: black;
+  font-size: 15px;
+  border:1px dotted black;
+  margin-top: 10px;
+  height:40px;
+  cursor: pointer;
+}
+.cross{
+  float: right;
+  margin-top:-60px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .contact-form {
+  width: 100%;
+  }
+}

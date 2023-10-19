@@ -1,0 +1,178 @@
+.header{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #555555;
+}
+.cross{
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    z-index: 2;
+}
+.box{
+    position: relative;
+    width: auto;
+    height: 640px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    direction: ltr;
+}
+.para {
+    position: relative;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+    direction: ltr;
+}
+.rectangle{
+    position: relative;
+    width: auto;
+    height: 288px; 
+}
+.apple{
+    position: relative;
+    width: 80%;
+    margin-top:20px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    position: relative;
+    top:9px;
+    height: 33px;
+    right:10px;
+}
+
+.linesdiv{
+    position:relative;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height:20px;
+}
+.line1{
+    position: relative;
+    width: 40%;
+    height: 0px;
+    background: #2B64D2;
+    border: 1px solid #2B64D2;   
+}
+.or{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B64D2;  
+    margin-top:-4px ; 
+}
+.password{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;   
+}
+.loginContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+.rectangle1{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input1{
+    position: relative;
+    width: 99%;
+    height: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    background: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    color: #555555;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.loginbuttondiv, .textdiv{
+    position: relative;
+    display: flex;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.loginbutton{
+    position: relative;
+    width: 230px;
+    height: 35px;
+    text-align: center;
+}
+.login{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text2{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    direction: ltr;
+    color: #555555;    
+}
+.signup{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B64D2;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.textdiv{
+    margin-top:0px;
+}

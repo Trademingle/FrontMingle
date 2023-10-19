@@ -1,0 +1,62 @@
+.header{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #555555;
+}
+.para {
+    position: relative;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+    direction: ltr;
+}
+.line{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 0px solid #555555; 
+    border-bottom: 2px solid black;
+    text-align: center;
+    background: #FFFFFF;
+    outline:none;
+    font-size: large;
+}
+.button_container{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width: auto;
+}
+.button{
+  position: relative;
+  width: 80%;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid var(--maincolor);
+  cursor: pointer;
+}
+
+.loginContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    padding-bottom: 50px;
+}

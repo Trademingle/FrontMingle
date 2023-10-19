@@ -1,0 +1,256 @@
+body{
+    background-color: #E5E5E5;
+}
+.para {
+    position: relative;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+    direction: ltr;
+}
+.textDanger {
+    position: relative;
+    top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: red;
+    height:auto;
+}
+.cross{
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    right: 10px;
+    color:black;    
+    z-index:1;
+}
+.back{
+    position: absolute;
+    z-Index:1;
+    background: #FFFFFF; 
+    cursor: pointer;  
+}
+.header{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #555555;
+}
+.box{
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 16px;
+    direction: ltr;
+    max-height: 100vh;
+    overflow: auto;
+}
+.rectangle{
+    position: relative;
+    width: auto;
+    height: 288px; 
+}
+.apple{
+    position: relative;
+    width: 80%;
+    margin-top:20px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    position: relative;
+    top:9px;
+    height: 33px;
+    right:10px;
+}
+
+.elogo{
+    position: absolute;
+    left: 31.05%;
+    right: 70%;
+    top: 20%;
+    bottom: 60%;
+    height: 40px;
+    fill: red;
+}
+.signupemail{
+    position: absolute;
+    left: 42.17%;
+    right: 37.46%;
+    top: 34.06%;
+    bottom: 62.19%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+}
+.googlebox{
+    position: absolute;
+    left: 5.7%;
+    right: 5.7%;
+    top: 45.94%;
+    bottom: 41.56%;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.applebox{
+    position: absolute;
+    left: 5.7%;
+    right: 5.7%;
+    top: 62.19%;
+    bottom: 25.31%;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.emailbox{
+    position: absolute;
+    left: 5.7%;
+    right: 5.7%;
+    top: 29.69%;
+    bottom: 57.81%;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.already{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    direction: ltr;
+    color: #555555; 
+}
+.login{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B64D2;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.linesdiv{
+    position:relative;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height:20px;
+}
+.line1{
+    position: relative;
+    width: 40%;
+    height: 0px;
+    background: #2B64D2;
+    border: 1px solid #2B64D2;   
+}
+.or{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B64D2;  
+    margin-top:-4px ; 
+}
+.password{
+    position: relative;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;   
+}
+.loginContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+.rectangle1{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input1{
+    position: relative;
+    width: 99%;
+    height: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    background: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    color: #555555;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.continueWithEmail{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.continueWithEmailParagraph{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.loginbuttondiv, .textdiv{
+    position: relative;
+    display: flex;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    min-height: 40px;
+}
+

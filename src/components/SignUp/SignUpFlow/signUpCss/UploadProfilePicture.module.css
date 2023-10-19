@@ -1,0 +1,177 @@
+.header{
+    /* position: absolute;
+    left: 44.02%;
+    right: 43.87%;
+    top: 11.56%;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #555555; */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 9.15%;
+    bottom: 87%;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+
+    text-align: center;
+
+    color: #555555;
+}
+
+.para {
+    /* position: absolute;
+    left: 10.54%;
+    right: 10.54%;
+    top: 19.06%;    
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+    direction: ltr; */
+    position: absolute;
+    left: 11.68%;
+    right: 11.54%;
+    top: 14.92%;
+    bottom: 82.19%;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: left;
+
+    color: #555555;
+}
+
+.line{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 0px solid #555555; 
+    border-bottom: 2px solid black;
+    text-align: center;
+    background: #FFFFFF;
+    outline:none;
+    font-size: large;
+}
+
+.underlines{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: auto;
+    left:25%;
+    /* right:15%; */
+    height: 40px;
+    top: 420px;
+}
+
+/* .wrapper {
+    font-family: Lato;
+    font-size: 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: #333;
+}
+    .dialog {
+      border: solid 1px #ccc;
+      margin: 10px auto;
+      padding: 20px 30px;
+      display: inline-block;
+      box-shadow: 0 0 4px #ccc;
+      background-color: #FAF8F8;
+      overflow: hidden;
+      position: relative;
+      max-width: 450px;
+      
+      h3 {
+        margin: 0 0 10px;
+        padding: 0;
+        line-height: 1.25;
+      }
+      
+      span {
+        font-size: 90%;
+      }
+      
+.form {
+    max-width: 240px;
+    margin: 25px auto 0;
+
+    .input {
+        margin: 0 5px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 50px;
+        border: solid 1px #ccc;
+        box-shadow: 0 0 5px #ccc inset;
+        outline: none;
+        width: 20%;
+        transition: all .2s ease-in-out;
+        border-radius: 3px;
+        
+        &:focus {
+        border-color: purple;
+        box-shadow: 0 0 5px purple inset;
+        }
+        
+        &::selection {
+        background: transparent;
+    }
+}
+
+button {
+    margin:  30px 0 50px;
+    width: 100%;
+    padding: 6px;
+    background-color: #B85FC6;
+    border: none;
+    text-transform: uppercase;
+}
+}
+      
+      button {
+        &.close {
+          border: solid 2px;
+          border-radius: 30px;
+          line-height: 19px;
+          font-size: 120%;
+          width: 22px;
+          position: absolute;
+          right: 5px;
+          top: 5px;
+        }           
+      }
+      
+      div {
+        position: relative;
+        z-index: 1;
+      }
+      
+      img {
+        position: absolute;
+        bottom: -70px;
+        right: -63px;
+      }
+    }
+   */

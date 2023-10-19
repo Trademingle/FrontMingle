@@ -1,0 +1,387 @@
+:root {
+    --maincolor:  #2B64D2;
+    --secondarycolor: #999999;
+    --textcolor: #555555;
+    --chatcolor: #EEEEEE;
+    --textfont: 'Red Hat Display'; 
+  }
+
+body{
+    background-color: #FFFFFF;
+}
+.navbar{
+    z-index:9;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0%;
+    height:78px;
+    min-width: 380px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);  
+}
+
+.booktrades{
+    position: absolute;
+    left: 10%;
+    top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color:  var(--textcolor);
+    text-decoration: none;
+}
+.FirstText{
+    position: absolute;
+    left: 8.94%;
+    right: 76.96%;
+    top: 26.42%;
+    bottom: 28.3%;
+    
+        
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color:  var(--textcolor);
+}
+
+.SecondText{
+    position: absolute;
+    left: 42.28%;
+    right: 43.9%;
+    top: 26.42%;
+    bottom: 28.3%;
+    
+        
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color:  var(--textcolor);
+}
+
+.ThirdText{
+    position: absolute;
+    left: 71.47%;
+    right: 17.33%;
+    top: 26.42%;
+    bottom: 28.3%;
+    
+        
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: right;
+    
+    /* Text */
+    
+    color:  var(--textcolor);
+}
+
+.SignUpButton{
+    position: static;
+    left: 25.6%;
+    right: 25.6%;
+    top: 27.36%;
+    bottom: 27.36%;
+    
+        
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Main */
+    
+    color:  var(--maincolor);
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 16px 0px;
+}
+
+.ProfilePic{
+    position: absolute;
+    left: 84.8%;
+    right: 6.4%;
+    top: 18.87%;
+    bottom: 18.87%;
+    
+    background: #C4C4C4;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    right: 10%;
+    direction: rtl;
+}
+.boxOne, .boxThree{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 22px;
+    position: static;
+    border-radius: 8px;
+    flex: none;
+    align-self: center;
+    margin: 16px 4px 16px 1px;
+    text-decoration: none;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+.boxOne:hover, .boxThree:hover, .dropButton:hover, .dropdownContent a:hover {
+    transition: 200ms;
+    border: 2px solid  var(--maincolor);
+}
+
+.boxTwo{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: static;
+    border-radius: 8px;
+    flex: none;
+    cursor: default;
+    align-self: center;
+    margin: 0px;
+    text-decoration: none;
+    width:auto;
+}
+
+.dropbtn {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 16px 14px;
+    width:auto;
+    max-width: 200px;
+    height: 60px;
+    margin: 8px 10px ;
+    cursor: pointer;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 45px;
+    text-decoration: none;
+    background: #FFFFFF;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    overflow: hidden;
+}
+.profileImg{
+    display: flex;
+    position: static;
+    border-radius: 50%;
+    padding: 2px;
+    width: 45px; 
+    height: 45px;
+    object-fit:cover;
+    z-index: 1;
+    order:0;
+}
+.dropbtntext{
+    position: static;
+    display: flex;
+    order:1;
+    padding-left:10px;
+    padding-right: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* text-align: center; */
+    color: #555555;
+    direction: ltr;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdownContent a {
+    color: black;
+    position: relative;
+    margin-top: 0px;
+    width:130px;
+    height:20px;
+    padding:20px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #999999;
+}
+
+.dropButton{
+    position: relative;
+    margin-top: 0px;
+    width:130px;
+    height:20px;
+    padding:20px;
+    margin-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+}
+.dropButton:hover{
+    background-color: #EEEEEE;
+    ;
+}
+
+
+.calendarIcon{
+    position: absolute;
+    left: 9.52%;
+    right: 180.4%;
+    top: 30.85%;
+    bottom: 29.85%; 
+    /* flex: none; */
+    /* order: 0;
+    flex-grow: 0;
+    margin: 8px 0px; */
+
+}
+
+.bidsIcon{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    flex: none;
+    align-self: center;
+    left: 13.64%;
+    right: 146.64%;
+    top: 33.54%;
+    bottom: 36.54%;  
+    margin: -25px; 
+}
+.iconText{
+    margin: 0;
+}
+.searchIcon{
+    color: black;
+    margin: 2px 5px 0 0
+}
+
+.notificationsIcon{
+    /* display: flex; */
+    /* cursor: pointer;
+    flex-direction: row;
+    position: static;
+    flex: none;*/
+    cursor: pointer;
+    align-self: center; 
+    /* left: 9.45%;
+    right: 85.41%;
+    top: 38.65%;
+    bottom: 33.65%; 
+    margin: 16px -30px 16px 1px;  */
+    color: var(--maincolor);
+}
+.notificationsBadge{
+    /* display: flex; */
+    /* cursor: pointer;
+    flex-direction: row;
+    position: static;
+    flex: none;*/
+    cursor: pointer;
+    font-size: 20;
+    align-self: center; 
+    /* left: 9.45%;
+    right: 85.41%;
+    top: 38.65%;
+    bottom: 33.65%; 
+    margin: 16px -30px 16px 1px;  */
+    color: var(--maincolor);
+}
+.dropdownContent a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdownContent {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f1f1f107;}
+
+
+@media only screen and (max-width: 1100px) {
+    .dropbtn{
+        margin-right: auto;
+    }
+    .iconText{
+        display:none;
+    }
+    .searchIcon{
+        margin: 0 10px;
+    }
+}
+@media only screen and (max-width: 775px) {
+    .dropbtntext{
+        display: none;
+    }
+}
+@media only screen and (max-width: 655px) {
+    .boxTwo{
+        width: 60px;
+        padding: unset;
+    }
+    .searchIcon{
+        margin: 0 -10px;
+    }
+
+    .dropbtn{
+        margin-right: 8px;
+        width:45px;
+        height:45px;
+        padding:0;
+        border:none;
+    }
+    .booktrades{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .boxOne{
+        padding:10px 15px;
+    }
+    .boxOne,
+    .boxThree{
+        font-size: 16px;
+    }
+}
+
+.accountBoxIcon{
+    /* position: relative;
+    float: left; */
+    position: absolute;
+    margin-right: 90px;
+    color:  var(--maincolor);
+    margin-top: 0px;
+}

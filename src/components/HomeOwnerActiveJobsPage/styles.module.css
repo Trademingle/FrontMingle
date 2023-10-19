@@ -1,0 +1,333 @@
+:root {
+  --maincolor: #2b64d2;
+  --secondarycolor: #999999;
+  --textcolor: #555555;
+  --chatcolor: #eeeeee;
+  --textfont: "Red Hat Display";
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.header {
+  position: absolute;
+  left: 7.22%;
+  top: 80px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  height:100px;
+  text-align: center;
+  color: var(--textcolor);
+  display: flex;
+  flex-direction: column;
+}
+.headerbuttons{
+  position: relative;
+  max-width: 280px;
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top:-45px;
+}
+.headertext{
+  position: relative;
+  margin-top:0px;
+  margin-left:0px;
+  text-align: start;
+}
+.activeJob {
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--textcolor);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.content {
+  position: relative;
+  top: -40px;
+}
+
+.header2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+  border-bottom: 2px solid var(--secondarycolor);
+  width: 380px;
+  height: 33px;
+  left: 7.22%;
+  margin-top: -100px;
+}
+
+.title {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height */
+  color: var(--textcolor);
+}
+
+.activeJob:focus,
+.saved:focus,
+.done:focus {
+  color: var(--maincolor);
+}
+
+.rectangle25 {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  height: 160px;
+  width: 225px;
+  background-size: contain;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rectangle33 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  overflow: auto;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  height: 2%;
+  margin-top: 0%;
+  cursor: pointer;
+}
+
+.name {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: var(--textcolor);
+  align-self: center;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin-right: 5px;
+  margin-top: 0%;
+}
+
+.location {
+  position: static;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--textcolor);
+  flex: none;
+  order: 1;
+  align-self: center;
+  overflow: hidden;
+  margin-top: 1%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  margin-top: 18%;
+}
+
+.jobbox {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  height: 350x;
+  width: 226px;
+  margin: 0%;
+  overflow: hidden;
+}
+.pending {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--textcolor);
+  position: static;
+  margin-top: 100px;
+}
+
+.servicetagbox {
+  position: flex;
+  display: absolute;
+  /* flex-direction: row; */
+  cursor: pointer;
+  height: 120px;
+}
+
+.servicetagss {
+  position: relative;
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 5px;
+  top: -79px;
+  left: 12px;
+}
+.skillstagbox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.tagfont {
+  position: static;
+  border: 2px solid var(--maincolor);
+  border-radius: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--maincolor);
+  margin: 0px;
+  padding: 5px;
+}
+
+.decline {
+  position: static;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--textcolor);
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 10px;
+  height: 30px;
+  width: 70px;
+}
+
+.accept {
+  position: static;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  background: var(--maincolor);
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  height: 30px;
+  width: 90px;
+}
+.adbox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  left: 20%;
+  width: 100px;
+}
+
+.check {
+  position: relative;
+    color: #22c029;
+  cursor: pointer;
+}
+
+.activePop {
+  position: absolute;
+  width: 350px;
+  height: 203px;
+  background: #ffffff;
+  border-radius: "8px";
+}
+.back {
+  height: 35px;
+  width: 65px;
+}
+.complete {
+  height: 39px;
+  width: 155px;
+}
+.completeText {
+  font-size: 12px;
+  color: white;
+}
+.byMarking {
+  margin: 30px 20px 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.gridContainer {
+  position: relative;
+  margin-top: 250px;
+  margin-left: 7.22%;
+  margin-right: 350px;
+  height: auto;
+}
+
+.addbutton {
+  position: relative;
+  width: 130px;
+  height: 35px;
+  text-align: center;
+}
+.addbuttontext {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.showbutton,
+.hidebutton{
+    height: 25px;
+    position: relative;
+    background-color: white;
+    border:1px solid var(--maincolor);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    top: -5px;
+    left:5px;
+    display: unset;
+}
+.showbutton{
+  width:150px;
+  height:35px;
+  margin-left:5px;
+  top:-8px
+}
+@media only screen and (max-width: 780px) {
+    .header2{
+        width: 80%;
+        max-width:380px;
+        padding-right: unset;
+    }
+}

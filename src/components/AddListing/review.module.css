@@ -1,0 +1,411 @@
+.mainbox{
+    position: relative;
+    height:850px;
+    width:1100px;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.biggestbox{
+    position: relative;
+    width:1100px;
+    display: flex;
+    flex-direction: column;
+}
+.fullpagebox{
+    position: relative;
+}
+.h1{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #555555;
+}
+.ratingbox2{
+    margin-left: 10%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.mediabox{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width:582px;
+    align-self: center;
+}
+.languagebox{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width:582px;
+    align-self: center;
+    height: 420px;
+}
+
+.h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #555555;  
+    margin-top:20px; 
+}
+.description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #555555;
+    margin-top: -10px;
+    overflow: auto;
+}
+
+.stars{
+    margin-top: -10px;
+    margin-left: -15px;
+}
+.continue{
+   height: 55.16px;
+   width: 350px;
+   text-align: center;
+}
+.continuetext{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.skillstextbox{
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    height:60px;
+    width:960px;
+    padding-left: 30px;
+}
+.uploadbox{
+    width: 100%;
+    height:200px;
+    margin-bottom: 80px;
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.uploadbutton{
+    position: static;
+    height:185px;
+    width:185px;
+    border: 1px dashed #999999;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.stepperbox{
+    position: relative;
+    margin-top:auto;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.stepper{
+    width: 350px;
+    margin-left: -30px;
+}
+.reviewcontent{
+    position: relative;
+    width:1100px;
+    height: auto;
+}
+
+.textbox{
+    position: relative;
+    width: 960px;
+    height: 150px;
+    left: 0%;
+    margin-top:70px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    overflow-y: auto;
+    margin-top: -10px;
+}
+
+.titlebigbox{
+    position: relative;
+    width:960px;
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.titlebox{
+    order: 0;
+    position: static;
+    width:450.94px;
+    height:130px; 
+}
+.locationbox{
+    order: 1;
+    position: static;
+    width:450.94px;
+    height:130px; 
+}
+.titlebigbox3{
+    position: relative;
+    width:960px;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.titlebox3{
+    order: 0;
+    position: static;
+    width:450.94px;
+    height:80px; 
+}
+.locationbox3{
+    order: 1;
+    position: static;
+    width:450.94px;
+    height:80px; 
+}
+.locationtextbox{
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    height:60px;
+    width:450.94px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.titletextbox{
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    height:60px;
+    width:450.94px;
+    margin-top:21px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.addphotoicon{
+    margin-left:55px;
+    margin-right: 53px;
+    margin-top:20px;
+    color:#555555;
+}
+.uploadtext{
+    margin-left:0px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    color: #555555;
+}
+.input{
+    display:none;
+}
+.fullpagebox{
+    position: absolute;
+    width: 100%;
+    height:1000px ;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 582px;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.wrapper2{
+    width: 640px;
+    height:220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+    margin-left: 30px;
+}
+
+.imageitem{
+    margin-left:10px;
+    height: 200px;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+}
+.imageview{
+    position: static;
+    order:0;
+    height: 200px;
+    width:auto; 
+}
+.closebutton{
+    position: static;
+    top:0px;
+    margin-left: -30px;
+    color:black;
+    height:30px;
+    align-self: flex-end;
+    cursor: pointer;
+    border:2px solid white;
+    border-radius: 50%;
+}
+.uploadcontainer{
+    height: 200px;
+    width:185px;
+    border: 1px dashed #999999;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:transparent;
+    cursor: pointer;
+}
+.skillsBox{
+    width:98%;
+}
+
+@media only screen and (max-width: 1050px) {
+    .titlebox,
+    .locationbox,
+    .mainbox,
+    .biggestbox,
+    .reviewcontent{
+        width:auto;
+    }
+    .titletextbox,
+    .locationtextbox{
+        width:100%;
+    }
+    .description{
+        max-width:350px;
+    }
+    .titlebigbox{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+    .locationbox{
+        margin-left: 10px;
+    }
+    .titlebigbox,
+    .ratingbox2,
+    .skillsBox,
+    .descBox,
+    .textbox{
+        width:650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textbox{
+        height:130;
+    }
+    .h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stepperbox{
+        position: relative;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 675px) {
+    .ratingbox2{
+        padding-left: 20px;
+        padding-right: 20px;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .titlebigbox{
+        order:0;
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    .titlebigbox3{
+        order:0;
+        display: block;
+        height: auto;
+        width: 100%;
+        }
+    .titlebox,
+    .titlebox3{
+        order:0;
+        height: auto;
+    }
+    .locationbox,
+    .locationbox3{
+        order:1;
+        height: auto;
+        margin-left: unset;
+        width: auto;
+    }
+    .skillsBox{
+        order:1;
+        height: auto;
+        width: 100%;
+    }
+    .descBox{
+        order: 2;
+        height: auto;
+        width: 100%;
+    }
+    .reviewcontent{
+        height: auto;
+    }
+    .textbox{
+        width: 100%;
+    }
+    .languagebox{
+        width: auto;
+        height: 420px;
+    }
+    .mediabox{
+        width: auto;
+    }
+    .wrapper{
+        width:80% ;
+        flex-direction: column;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    .mediabox{
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+    }
+}

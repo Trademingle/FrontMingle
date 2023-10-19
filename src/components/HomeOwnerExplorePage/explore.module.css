@@ -1,0 +1,222 @@
+:root {
+    --maincolor:  #2B64D2;
+    --secondarycolor: #999999;
+    --textcolor: #555555;
+    --chatcolor: #EEEEEE;
+    --textfont: 'Red Hat Display';
+}
+
+.header{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #555555;    
+    max-width: 365px;    
+    height:auto;
+}
+.headerDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.message{
+    right:10px;
+    bottom: 8px;
+    height:39px;
+    width:116px;
+    position: relative;
+    float: right;
+}
+.messagetext{
+    position: static;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    color:var(--chatcolor);
+}
+.explorebox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right:0px;
+    height:auto;
+    justify-content: space-between;
+    width:100%;
+
+}
+.explorecardbox{
+    order:0;
+    position: static;
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.adbox{
+    display: none;
+    order:1;
+    right:24px;
+    height:740px;
+    width: 308px;
+    position: relative;
+}
+.ad{
+    background-color: #EAEAEA;
+    height: 585px;
+    width: 259px;
+    position: absolute;
+    left:24px;
+    top:31px;
+    text-align: center;
+
+}
+
+.card{
+    height:auto;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.subheader{
+    display:flex;
+    flex-direction: row;
+    margin-top:-40px;
+    margin-left: 255px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+
+}
+.content{
+    margin-top:-45px;
+    margin-left: 256px;
+}
+.tagfont{
+    position: static;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color:  var(--maincolor);
+    margin: 0px 8px 0px 8px;
+}
+.tag{
+    padding: 5px;
+    position: static;
+    background: #FFFFFF;
+    border: 2px solid  var(--maincolor);
+    box-sizing: border-box;
+    border-radius: 38px;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    margin: 0px 12px 0px 0px;
+}
+
+.avatarpic{
+    height: 132px;
+    width:132px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius:50% ;
+    cursor: pointer;
+    object-fit:cover;
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top:0px;
+    margin-left: 256px;
+    color: #555555;
+    cursor: pointer;
+}
+.bookmark{
+    right:-5px;
+    top:-5px;
+}
+.Vector{
+    color: var(--maincolor);
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+
+.addbutton{
+    width:130px;
+    height:39px;
+    text-align: center;
+    position: relative;
+    float: right;
+    top: -65px;
+}
+.addbuttontext{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+.contentwrapper{
+    position: relative;
+    left:10%;
+    width:80%;
+    top:40px;
+}
+@media only screen and (max-width: 700px) {
+    .card{
+        width:auto;
+        height:auto;
+        min-width: 300px;
+    }
+    .title,
+    .subheader,
+    .content{
+        margin-left: 0;
+    }
+    .title{
+        margin-top: 00px;
+    }
+    .avatarpic{
+        position: relative;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .bookmark{
+        position: relative;
+        top:-160px;
+    }
+    .headerDiv{
+        flex-direction: column;
+    }
+}
+
+.name{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color:  var(--textcolor);
+    align-self: center;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.name:hover{
+    font-weight: bold;
+    color: #2B64D2;
+}

@@ -1,0 +1,38 @@
+.sBody{
+    position: relative;
+    width: auto;
+    height: fit-content;
+    min-height: 100vh;
+    top:0px;
+}
+.header{
+    position: relative;
+    top:0px;
+    left:7.22%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #555555;        
+}
+.explorebox{
+    position: relative;
+    left:10%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* height:740px; */
+    justify-content: space-between;
+
+}
+.card{
+    height:184px;
+    margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 700px) {
+    .explorecardbox{
+        width: auto;
+    }
+}

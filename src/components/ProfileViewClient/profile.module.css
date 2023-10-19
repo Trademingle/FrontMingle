@@ -1,0 +1,118 @@
+.profileMainBox{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+.header{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color:  var(--textcolor); 
+    width:100%;
+    text-align: center;
+}
+.circle{
+    position: relative;
+    border-radius:50% ;
+    border:1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit:cover;
+
+}
+.editbutton{
+    position: relative;
+    width: 350px;
+    height: 40px;
+    border: 1px solid  var(--secondarycolor);
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px auto 20px auto;
+    display: block;
+    cursor: pointer;
+}
+.editbutton:hover{
+    background-color: var(--maincolor);
+    color:white;
+}
+.profilebox{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.profileBoxInside{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.hr1{
+    position: relative;
+    border: 1px solid #CCCCCC;
+}
+.hr2{
+    position: relative;
+    border: 1px solid #CCCCCC;
+}
+.SecondBox{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: relative;
+    right:0;
+    height: 100%;
+    left: 0;
+}
+.planguages{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color:  var(--textcolor);
+    margin-top:0px;
+}
+.languages{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color:  var(--textcolor);
+    margin-top:0px;
+}
+.languagebox{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Vector{
+    color: var(--maincolor);
+    margin-bottom: -3px;
+    margin-right: 2px;
+
+}
+
+@media only screen and (max-width: 500px) {
+    .languagebox{
+        flex-direction: column;
+    }
+    .editbutton{
+        display: none;
+    }
+}
+
+.message {
+    margin: 10px auto 10px auto;
+    height: 39px;
+    width: 116px;
+    position: relative;
+}

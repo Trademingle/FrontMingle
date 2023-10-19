@@ -1,0 +1,34 @@
+.twitter-container {
+  margin-bottom: 50px;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $white;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $secondary-blue;
+  }
+}
+
+.twitter-column-container {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tweet-button {
+  font-weight: normal;
+  padding: 8px 20px;
+}
+
+#allTweets,
+#likedTweets,
+#retweetedTweets {
+  overflow-y: scroll;
+  height: 600px;
+}

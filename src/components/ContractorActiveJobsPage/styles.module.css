@@ -1,0 +1,240 @@
+:root {
+    --maincolor:  #2B64D2;
+    --secondarycolor: #999999;
+    --textcolor: #555555;
+    --chatcolor: #EEEEEE;
+    --textfont: 'Red Hat Display'; 
+  }
+
+body{
+    background-color: #FFFFFF;
+}
+
+.header{
+    position: absolute;
+    left: 7.22%;
+    top: 100px;      
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color:  var(--textcolor); 
+}
+
+.activeJob{
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color:  var(--textcolor);
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+.content{
+    position: relative;
+    top:-40px;
+}
+
+.header2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    border-bottom: 2px solid  var(--secondarycolor);
+    width: 380px;
+    height:33px;
+    left: 7.22%;
+    margin-top:-100px;
+}
+
+.title{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    margin-top: 2%;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    color:  var(--textcolor);
+}
+
+.activeJob:focus, .saved:focus, .done:focus{
+    color:  var(--maincolor);
+}
+
+.rectangle25{
+    position: relative;
+    left: 0%;
+    top:0%;
+    height: 150px;
+    width: 225px;
+    background-size: contain;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+
+.rectangle33{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    overflow: auto;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: 4%;
+    margin-top: -5%;
+    cursor: pointer;
+}
+
+.name{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color:  var(--textcolor);
+    align-self: center;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin-right: 5px;
+}
+.name:hover{
+    /* text-shadow: 0 0 1px #2B64D2; */
+    color:#2B64D2;
+    font-weight: bold;
+}
+.location{
+    position: static;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color:  var(--textcolor);
+    flex: none;
+    order: 1;
+    align-self: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    margin-top: 18%;
+    
+}
+
+.jobbox{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    height: 300px;
+    width: 226px;
+    margin: 1%;
+    overflow: hidden;
+}
+.pending{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color:  var(--textcolor);
+    position: static;
+    margin-top: 100px;
+}
+
+.servicetagbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;  
+    cursor:default;
+    min-width:200px;
+}
+
+.servicetagss{
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 5px;
+    top: -79px;
+    left: 12px;
+   
+  }
+.skillstagbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.tagfont{
+    position: static;
+    border: 2px solid  rgb(180, 178, 178);
+    border-radius: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color:  var(--maincolor);
+    margin:0px 5px 0px 0px;
+    padding:5px;
+}
+.adbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left:50px;
+}
+
+.gridContainer{
+    position: relative;
+    margin-top: 250px;
+    margin-left:7.22%;
+    margin-right: 350px;
+    height: auto;   
+}
+.showbutton,
+.hidebutton{
+    height: 30px;
+    position: relative;
+    background-color: white;
+    border:1px solid var(--maincolor);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    top: -8px;
+    left:5px;
+    display: unset;
+}
+.showbutton{
+    left:50px;
+}
+@media only screen and (max-width: 780px) {
+    .showbutton,
+    .hidebutton{
+        display: unset;
+    }
+    .header2{
+        width: 80%;
+        max-width:380px;
+        padding-right: unset;
+    }
+}

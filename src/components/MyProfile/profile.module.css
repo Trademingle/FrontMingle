@@ -1,0 +1,406 @@
+:root {
+    --maincolor: #2B64D2;
+    --secondarycolor: #999999;
+    --textcolor: #555555;
+    --chatcolor: #EEEEEE;
+    --textfont: 'Red Hat Display'; 
+}
+
+.biggyBox{
+    height:auto;
+    width:100%;
+}
+
+.header{
+    position: absolute;
+    left: 0%;
+    top: -10%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color:  var(--textcolor); 
+}
+.circle{
+    position: relative;
+    left:0;
+    top:80px;
+    border-radius:50% ;
+    object-fit:cover;
+}
+.jobsdone{
+    position: absolute;
+    left: 47%;
+    top: 20%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color:  var(--textcolor);
+}
+.rating{
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color:  var(--textcolor);
+}
+.jobsdone2{
+    position: absolute;
+    left: 38%;
+    top: 38%;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color:  var(--textcolor);
+}
+.rating2{
+    position: absolute;
+    left: 72%;
+    top: 38%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color:  var(--textcolor);
+}
+.editbutton, 
+.downloadAppText{
+    position: absolute;
+    left: 0%;
+    bottom:70px;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid  var(--secondarycolor);
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.downloadAppText{
+    display: none;
+    border: none;
+}
+.liability{
+    position: absolute;
+    left: 53.47%;
+    top: 24.85%;
+    bottom: 72.8%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color:  var(--textcolor);
+}
+.workercompensation{
+    position: absolute;
+    left: 53.47%;
+    top: 27.98%;
+    bottom: 69.68%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color:  var(--textcolor);
+}
+.profilebox{
+    left:7.22%;
+    top: 50px;
+    width: 350px;
+    position: relative;
+    height: 350px;
+}
+.hr1,
+.hr2{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+    width:85.56%;
+}
+.hr2{
+    width:100%;
+}
+
+.message {
+    height: 39px;
+    width: 120px;
+    position: relative;
+    cursor: pointer;
+}
+
+.SecondBox{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:85.56%;
+    height: auto;
+    justify-content: space-between;
+}
+.ThirdBox{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:85.56%;
+}
+.FourthBox{
+    max-width:100%;
+    overflow: auto;
+}
+.skillsbox{
+    position: relative;
+    top: -1%;
+    left: 0%;
+    width:auto;
+}
+.skills{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color:  var(--textcolor);
+}
+.planguages{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color:  var(--textcolor);
+    width:250px;
+}
+.languages{
+    margin-top: -1%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color:  var(--textcolor);
+}
+.languagebox{
+    position: relative;
+    top: 0px;
+    width:auto;
+    height:auto;
+}
+  
+.Vector{
+    color: var(--maincolor);
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+.box{
+    display: flex;
+    align-items: left;
+    width: 702px;
+    max-height: 100vh;
+    background: #FFFFFF;
+    border-radius: 16px;
+    direction: ltr;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.cross{
+    position: absolute;
+    right: 1%;
+    top: 1%;    
+    cursor: pointer;
+}
+
+.editProfile{
+    display:flex;
+    align-self: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #555555;
+    order:0;
+}
+
+.editfName{
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    color: #555555;
+    order:2;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.editName{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    color: #555555;
+    order:2;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    order:3;
+    align-self: center;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.circle2{
+    position: absolute;
+    align-self: center;
+    order:1;
+    color:black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.circle3{
+    position: relative;
+    align-self: center;
+    order:1;
+    border-radius: 50%;
+    /* top:68px; */
+    cursor: pointer;
+}
+
+.profile_pic_input{
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 0;
+}
+
+.video_upload_input{
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    opacity: 0;
+}
+.circle3text{
+    position: absolute;
+    top:60px;
+    text-align: center;
+    color: white;
+    font-weight:500;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    height:75px;
+    display: none;
+}
+
+.circle3:hover .circle3text{
+    display: block;
+}
+
+.back{
+    height: 45px;
+    width: 200px;
+}
+.complete{
+    height: 45px;
+    width: 200px;
+}
+.completeText{
+    font-size: 14px;
+    color:white;
+}
+
+.passwordForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex: 1 1 auto;
+    margin:20px 0;
+}
+
+.passwordForm2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 auto;
+}
+.passchangeButton{
+    width:300px;
+    height:40px;
+    text-align: center;
+    margin-right: 180px;
+    margin-top: 7px;
+    background-color:white ;
+    border:1px solid var(--maincolor);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.passchangeButton:hover, .editbutton:hover{
+    background-color: var(--maincolor);
+    color:white;
+}
+@media only screen and (max-width: 700px) {
+    .mustHide,
+    .editbutton{
+        display: none;
+    }
+    .downloadAppText{
+    display: unset;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .SecondBox{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #555;
+    user-select: none;
+}
