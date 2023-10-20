@@ -12,11 +12,11 @@ import homeowner from './homeowner.png';
 const useStyles = makeStyles((theme) => ({
     root: {
       maxWidth: '100%',
-      background:'#2B64D2',
+      background:'#028A0F',
     },
     babyCards:{
-        background:'#2B64D2',
-        maxWidth: '600px',
+        background:'#028A0F',
+        //maxWidth: '600px',
         minWidth: '200px',
         textAlign:'center',
         position: 'relative',
@@ -57,18 +57,18 @@ export default function Banners ()  {
                             </CardActionArea>
                         </Card>
                     </Grid>
-                    <Grid item xs>
+                    {/* <Grid item xs>
                         <Card className={classes.babyCards}>
                             <CardActionArea>
                                 <img src={homebuilder} className={styles.secondBannerImg} alt=''/>
                                 <h2 className={styles.centeredText}>Home Builder</h2>
                             </CardActionArea>
                         </Card>
-                    </Grid>
+                    </Grid> */}
                     <Grid item xs>
                         <Card className={classes.babyCards}>
                             <CardActionArea>
-                                <img src={contractor} className={styles.secondBannerImg} alt=''/>
+                                <img src={contractor} className={styles.thirdBannerImg} alt=''/>
                                 <h2 className={styles.centeredText}>Contractor</h2>
                             </CardActionArea>
                         </Card>

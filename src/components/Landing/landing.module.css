@@ -1,5 +1,5 @@
 :root {
-    --maincolor: #2B64D2;
+    --maincolor: #028A0F;
     --secondarycolor: #999999;
     --textcolor: #555555;
     --chatcolor: #EEEEEE;
@@ -431,6 +431,7 @@
 .firstBannerImg{
     height:300px;
     float: right;
+    Opacity: 0.8;
 }
 .firstBannerH1{
     color: white;
@@ -453,7 +454,10 @@
     background: white;
 }
 .secondBannerImg{
-    width:100%;
-    height:100%;
+    width:80%;
+    opacity: 0.5;
+}
+.thirdBannerImg{
+    width:60%;
     opacity: 0.5;
 }
